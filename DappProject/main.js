@@ -3,7 +3,7 @@ var contractInstance;
 
 $(document).ready(() => {
     window.ethereum.enable().then((accounts) => {
-      contractInstance = new web3.eth.Contract(abi, '0x4D4c76205e2Ded2236DE756FEFDA91055C7cBf3b', {from: accounts[0]});
+      contractInstance = new web3.eth.Contract(abi, address, {from: accounts[0]}); // Replace address parameter with contract address
       console.log(contractInstance);
     });
     $('#add_data_button').click(inputData)
