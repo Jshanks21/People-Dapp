@@ -1,2 +1,2 @@
-# truffle-test-example
-Basic examples using the Truffle testing framework.
+# Upload Your Data to the Blockchain Dapp
+Basic dapp that sends inputted data to the blockchain. Includes some sample unit testing with the Truffle framework.
